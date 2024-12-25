@@ -39,8 +39,7 @@ CountVectorizer: This class converts text data into a numerical format that the 
 
 MultinomialNB: This is a Naive Bayes classifier, which is used to train our model on the numerical text data.
 
-train_test_split: This function helps split our dataset into training and testing sets. It is commonly used in predictive machine learning. The training set is used to train the model, while the testing set is used to evaluate its performance. Learn more [here]:(https://www.codedex.io/projects/predict-home-prices-with-python-and-linear-regression#train-test)
-
+train_test_split: This function helps split our dataset into training and testing sets. It is commonly used in predictive machine learning. The training set is used to train the model, while the testing set is used to evaluate its performance. 
 accuracy_score: This function provides a way to measure the accuracy of our model by comparing the predicted labels with the actual labels in the test set. A higher accuracy score indicates better performance, a score of 1.0 = great predictions.
  
 4.Machine Translation
