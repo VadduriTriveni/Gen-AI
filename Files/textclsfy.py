@@ -48,3 +48,5 @@ Finally, calculate and print the accuracy of our model by comparing the predicte
 
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
+
+Your output should return 1.0 accuracy.
