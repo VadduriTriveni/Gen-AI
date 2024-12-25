@@ -57,3 +57,7 @@ if accuracy > 0.8:
   print('Good vibes. Book the ticket!')
 else:
   print('Needs more work!')
+
+Your output should return
+  Accuracy: 0.0
+  Needs more work!
