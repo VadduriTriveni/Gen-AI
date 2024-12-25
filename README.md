@@ -40,6 +40,7 @@ CountVectorizer: This class converts text data into a numerical format that the 
 MultinomialNB: This is a Naive Bayes classifier, which is used to train our model on the numerical text data.
 
 train_test_split: This function helps split our dataset into training and testing sets. It is commonly used in predictive machine learning. The training set is used to train the model, while the testing set is used to evaluate its performance. 
+
 accuracy_score: This function provides a way to measure the accuracy of our model by comparing the predicted labels with the actual labels in the test set. A higher accuracy score indicates better performance, a score of 1.0 = great predictions.
  
 ## 4.Machine Translation
@@ -64,7 +65,6 @@ Suggesting Corrections: It suggests possible corrections based on common misspel
 The TextBlob library is a key tool in natural language processing and text analysis. It simplifies text processing, making it easy to work with text data.
 
 Why TextBlob is a vibe:
-
 Easy to Use: TextBlob is straightforward and allows you to perform tasks like sentiment analysis, part-of-speech tagging, and text translation with just a few lines of code.
 Spell Checking and Correction: It includes built-in spell-checking and correction features.
 Text Analysis: You can analyze text to extract useful information like determining its sentiment (positive, negative, or neutral) and summarize text data.
