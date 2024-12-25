@@ -1,14 +1,14 @@
- Tokenization
+Tokenization
 
 In your code editor, create a new tokens.py file.
 
-Import the tokenize library with the following code:
+1.Import the tokenize library with the following code:
 
 import nltk
 nltk.download('punkt_tab')
 from nltk.tokenize import word_tokenize
 
-Use the code below to perform a simple tokenization task:
+2.Use the code below to perform a simple tokenization task:
 
 sample_text = 'I love programming!'
 tokens = word_tokenize(sample_text)
