@@ -2,18 +2,18 @@ N-grams
 
 Let's build some n-gram models with the nltk Python library. 💛
 
-Import the ngrams and word_tokenize packages from the nltk library.
+1.Import the ngrams and word_tokenize packages from the nltk library.
 
 import nltk
 from nltk import word_tokenize
 from nltk.util import ngrams
 
-Tokenize a phrase, you can use your favorite quote!
+2.Tokenize a phrase, you can use your favorite quote!
 
 sample_text = 'I am learning NLP(Natural Language Processing)'
 tokens = word_tokenize(sample_text)
 
-Generate unigrams, bigrams, and trigrams from the tokens.
+3.Generate unigrams, bigrams, and trigrams from the tokens.
 # Unigram
 unigrams = list(ngrams(tokens, 1))
 print('Unigrams:', unigrams)
