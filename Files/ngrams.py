@@ -26,4 +26,7 @@ print('Bigrams:', bigrams)
 trigrams = list(ngrams(tokens, 3))
 print('Trigrams:', trigrams)
 
-Take a look at the output and see how the n-grams are generated from the tokens!
+Your output should return list of ngrams.
+Unigrams: [('I',), ('am',), ('learning',), ('NLP',), ('(',), ('Natural',), ('Language',), ('Processing',), (')',)]
+Bigrams: [('I', 'am'), ('am', 'learning'), ('learning', 'NLP'), ('NLP', '('), ('(', 'Natural'), ('Natural', 'Language'), ('Language', 'Processing'), ('Processing', ')')]
+Trigrams: [('I', 'am', 'learning'), ('am', 'learning', 'NLP'), ('learning', 'NLP', '('), ('NLP', '(', 'Natural'), ('(', 'Natural', 'Language'), ('Natural', 'Language', 'Processing'), ('Language', 'Processing', ')')]
