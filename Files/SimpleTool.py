@@ -3,7 +3,7 @@ By analyzing if the reviews are positive or negative, you can get a sense of whe
 
 Let’s get start!
 
-Set Up Your Environment
+1.Set Up Your Environment
 Start a Python script and make sure the necessary Python libraries have been installed:
 
 from sklearn.feature_extraction.text import CountVectorizer
@@ -11,7 +11,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-Gather Your Data
+2.Gather Your Data
 Create a list of sample movie reviews, ask some friends or pick the top online reviews. Each review should express either a positive or negative opinion.
 Label Your Data
 Label each review as either "positive" or "negative." Example:
@@ -24,24 +24,24 @@ reviews = ['This movie was fantastic! A must-watch.',
 
 labels = ['positive', 'negative', 'positive', 'negative', 'positive']
 
-Vectorize the Text Data
+3.Vectorize the Text Data
 Convert your text data into numbers that the computer can understand using CountVectorizer:
 
 vectorizer = CountVectorizer()
 x = vectorizer.fit_transform(reviews)
 
-Split the Data
+4.Split the Data
 Split your data into training and testing sets so the computer can learn from some data and be tested on the rest:
 
 x_train, x_test, y_train, y_test = train_test_split(x, labels, test_size=0.2, random_state=42)
 
-Train the Model
+5.Train the Model
 Create a Naive Bayes classifier and train it using the training data:
 
 model = MultinomialNB()
 model.fit(x_train, y_train)
 
-Test the Model
+6.Test the Model
 Use the trained model to predict the vibes of the test data:
 
 y_pred = model.predict(x_test)
@@ -49,7 +49,7 @@ accuracy = accuracy_score(y_test, y_pred)
 
 print('Accuracy:', accuracy)
 
-Interpret the Results
+7.Interpret the Results
 Finally, you can decide if the movie has "Good vibes!" based on the accuracy of your model. 
 If the accuracy is above 80%, print "Good vibes!"
 
