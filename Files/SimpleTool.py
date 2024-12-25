@@ -12,9 +12,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 2.Gather Your Data
-Create a list of sample movie reviews, ask some friends or pick the top online reviews. Each review should express either a positive or negative opinion.
-Label Your Data
-Label each review as either "positive" or "negative." Example:
+Create a list of sample movie reviews, ask some friends or pick the top online reviews. 
+Each review should express either a positive or negative opinion.
+Label Your Data Label each review as either "positive" or "negative." Example:
 
 reviews = ['This movie was fantastic! A must-watch.',
            'I didn\'t enjoy this movie at all.',
