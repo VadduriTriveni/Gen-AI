@@ -17,3 +17,5 @@ translation = translator.translate(text)
 5.# Print the translated text
 print('Translated Text:', translation)
 
+Your Output should return Translated Text: Hola, ¿cómo estás?
+
