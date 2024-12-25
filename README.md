@@ -3,7 +3,7 @@ Basic coding Of Gen AI
 
 Consists of following Techniques
  
-1.Tokenization
+## 1.Tokenization
 
 Tokens are small units of data used to train gen AI models like ChatGPT and help them understand and generate language. This data may take the form of whole words, subwords, and other content.
 
@@ -11,7 +11,7 @@ Tokens are essential for language models because they are the smallest units of 
 
 Using this tokenized data, language models can learn patterns and relationships between small units of data in the context of large amounts of data. This helps the model predict and generate new content based on what it learned!
 
-2.N-grams
+## 2.N-grams
 
 N-grams are sequences of 'n' tokens from a given sample of text.By analyzing these sequences, we can understand how words are commonly used together. This is essential for tasks like predicting the next word in a sentence or understanding the meaning of text.
 
@@ -22,7 +22,7 @@ Trigram, for three consecutive characters or words (ex. "I am learning").
 
 N-grams analyze the probability of certain word sequences based on their occurrence typically in a large dataset.
 
-3.Text Classification
+## 3.Text Classification
 
 Text classification involves categorizing text into different groups. Think about it as sorting emails into spam and non-spam folders or classifying news articles into sports, politics, or entertainment sections.
 
@@ -42,7 +42,7 @@ MultinomialNB: This is a Naive Bayes classifier, which is used to train our mode
 train_test_split: This function helps split our dataset into training and testing sets. It is commonly used in predictive machine learning. The training set is used to train the model, while the testing set is used to evaluate its performance. 
 accuracy_score: This function provides a way to measure the accuracy of our model by comparing the predicted labels with the actual labels in the test set. A higher accuracy score indicates better performance, a score of 1.0 = great predictions.
  
-4.Machine Translation
+## 4.Machine Translation
 
 Machine translation automatically converts text from one language to another using computer algorithms. Tools like Google Translate use advanced language models to perform this task.
 
@@ -52,7 +52,7 @@ Generating Translations: Once trained, the system can translate a sentence from 
 
 One of the libraries that can help us with machine translation is the translate python library. It allows you to translate simple phrases by interacting with machine translation APIs like Google Translate. Let's get started with translating!
 
-5.Spell Check
+## 5.Spell Check
 
 Spell checkers automatically find and correct spelling mistakes in text. They are helpful and ensure that your writing is clear and error-free. It is one of the many implementations of generative ai using machine learning.
 
@@ -69,5 +69,5 @@ Easy to Use: TextBlob is straightforward and allows you to perform tasks like se
 Spell Checking and Correction: It includes built-in spell-checking and correction features.
 Text Analysis: You can analyze text to extract useful information like determining its sentiment (positive, negative, or neutral) and summarize text data.
 
-6.Simple Moviereview  Tool Build
+## .Simple Moviereview  Tool Build
  
